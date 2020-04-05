@@ -1,10 +1,14 @@
 <template>
-    <div>dasas</div>
+    <div>
+        {{msg}}
+    </div>
 </template>
 <script>
     export default {
-        data: {
-            
+        data:function() {
+            return{
+                msg: 'sasa'
+            }
         }
     }
 </script>

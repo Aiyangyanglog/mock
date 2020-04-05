@@ -7,7 +7,7 @@ Vue.use(VueRouter);
 // 路由配置
 const Routers = [
     {
-        path: 'mock',
+        path: '/mock',
         meta: {
             title: '模拟数据'
         },
